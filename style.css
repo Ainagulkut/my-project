@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: green;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    
+}
+
+@media screen and (max-width: 430px) {
+    .cards{
+        width: 100%;
+        margin: 0;
+    }
+}
